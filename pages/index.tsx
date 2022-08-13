@@ -6,7 +6,7 @@ const Home: NextPage = () => {
     // grid min-h-screen gap-10 px-20 py-20 lg:grid-cols-2 xl:grid-cols-3 bg-slate-400 xl:place-content-center
     // <div className="dark:md:hover:bg-teal-400 bg-[url('/vercel.svg')]">
     //  <h2 className="text-[97851px] text-[#000]">Hello</h2>
-    
+    // Test
     <div className="grid min-h-screen gap-10 px-20 py-20 lg:grid-cols-2 xl:grid-cols-3 bg-slate-400 xl:place-content-center">
       <div className="flex flex-col justify-between p-6 bg-white shadow-xl dark:lg:bg-black sm:bg-red-400 md:bg-teal-400 lg:bg-indigo-400 xl:bg-yellow-400 2xl:bg-orange-400 rounded-3xl">
         <span className="text-3xl font-semibold dark:text-white">Select Item</span>
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             >
               <span className="text-gray-500 dark:text-gray-100">Gray Chair</span>
               <span className="font-semibold dark:text-white">$19</span>
-            </div>
+            </div> 
           ))}
         </ul>
         {/* {["a", "b", "c", ""].map((c, i) => (
